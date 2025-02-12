@@ -30,7 +30,11 @@ public class Raindrop {
         raindropPaint.setColor(newColor);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.VANILLA_ICE_CREAM)
+    /*
+@author Derric Smith
+@Date 2/10/25
+ */
+    @RequiresApi(api = Build.VERSION_CODES.VANILLA_ICE_CREAM) // I had to use this line a few times for some reason, don't fully understand why
     public Raindrop()
     {
         x = rng.nextInt(0,790)+10;

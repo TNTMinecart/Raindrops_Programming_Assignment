@@ -12,6 +12,11 @@ import androidx.annotation.RequiresApi;
 
 import java.util.Random;
 
+/*
+@author Derric Smith
+@Date 2/10/25
+ */
+
 public class RainView extends SurfaceView
     {
 
